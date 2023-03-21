@@ -13,7 +13,7 @@ import { ContentComponent } from './layout/content/content.component';
     LayoutComponent,
     HeaderComponent,
     FooterComponent,
-    ContentComponent
+    ContentComponent,
   ],
   imports: [
     BrowserModule,
