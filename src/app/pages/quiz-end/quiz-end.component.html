@@ -1,0 +1,7 @@
+<app-quiz-cover [isQuizOver]="true" *ngIf="(route$ | async) as data; else loading">
+  {{ subtitle }} {{ data.correctAnswers }}
+</app-quiz-cover>
+
+<ng-template #loading>
+  Loading...
+</ng-template>
